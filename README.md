@@ -40,12 +40,12 @@ to run NN
 | `logger.py`           | Logger        | to export log                         |
 
 
-<!-- to summarize and compare results collected while changing hyperparameters(e.g., learning rate $\epsilon$ and the number of hidden layer)
+to summarize and compare results collected while changing hyperparameters(e.g., the number of input/hidden layer)
 
 | File name             | Class         | Explanation                           |
 | --                    | --            | --                                    |
 | `summarizer.py`       | Summary       | to summarize and compare              |
-| `config_sum.py`       | Configuration | to select data and color to use       | -->
+| `config_sum.py`       | Configuration | to select data and color to use       | 
 
 
 
@@ -60,13 +60,10 @@ exported by `logger.py`
 | `experimental_setting.txt`    | File          | log of configuration                                                          |
 | `statistics.csv`              | File          | *min, q25, med, q75, max, ave, std of accuracy of whole trials                |
 
-<!-- exported by `summarizer.py`
+exported by `summarizer.py`
 
-| Name                          | Explanation                                                       |
-| --                            | --                                                                |
-| `all_trials.csv`              | accuracy of classification of each epochs in each trial           |
-| `experimental_setting.txt`    | log of configuration                                              |
-| `statistics.csv`              | *min, q25, med, q75, max, ave, std* of accuracy of whole trials   | -->
-
+| Name                          | Explanation                           |
+| --                            | --                                    |
+| `compare_AE_*.png`            | figure to compare convergence speed   |
 
 ---
